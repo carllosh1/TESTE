@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+input[type="checkbox"]{
+    position:relative; left:1px; opacity:1;
+}
+fieldset{
+    width:90%;
+    margin:20px auto;
+    
+}
+.title{ 
+    text-align: center;
+
+}
+.flex{display:flex;
+    justify-content: flex-end;
+    
+
+}
+.center{
+    margin-top:25px;
+    text-align: center;
+}
+nav .brand-logo{
+    margin-left:60px;
+}
+nav ul{
+    margin-right: 60px;
+}
+@media screen and (min-width: 780px) {
+    nav .brand-logo{
+        margin-left:0px;
+    }
+    nav ul{
+        margin-right: 0px;
+    }
+    .row{
+        margin-left:10%;
+    }
+    
+}
+
+#codigoProcedimento{
+   object-position: right;
+}
+
